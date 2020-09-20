@@ -13,7 +13,7 @@ go run goresolver.go -h
 # How to use
 
 ```
-go run dirbrute.go -w <list_with_domains>
+go run goresolver.go -w <list_with_domains>
 ```
 
 # Found an error or a suggestion?
