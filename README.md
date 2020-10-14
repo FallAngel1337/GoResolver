@@ -1,20 +1,24 @@
 # GoResolver
 
 # How to install?
-**Note: Make sure you have go installed in your environment.**
+**Note: Make sure you have Go in you environment**
+
 **[Here's how you can install Go](https://golang.org/doc/install)**
 
+## From source:
 ```
-git clone https://github.com/FallAngel1337/GoResolver.git
-cd GoResolver
-go run goresolver.go -h
+$ git clone https://github.com/FallAngel1337/goresolver.git
+$ cd goresolver
+$ go build
 ```
 
-# How to use
+## Using go get:
+```
+$ go get -v github.com/FallAngel1337/goresolver
+```
 
-```
-go run goresolver.go -w <list_with_domains>
-```
+# Usage
+`$ goresolver -h`
 
 # Found an error or a suggestion?
 Pls contact me :)
